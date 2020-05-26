@@ -4,7 +4,7 @@
 class ModelGenerator < Formula
   desc "Popina model generator"
   homepage "https://github.com/popina/model-generator"
-  version "0.0.4"
+  version "0.0.5"
   url "https://github.com/popina/model-generator.git", :tag => "#{version}"
   depends_on :xcode => ["11.2.1", :build]
 
