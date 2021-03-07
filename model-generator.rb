@@ -6,7 +6,7 @@ class ModelGenerator < Formula
   homepage "https://github.com/popina/model-generator"
   version "0.0.6"
   url "https://github.com/popina/model-generator.git", :tag => "#{version}"
-  depends_on :xcode => ["11.2.1", :build]
+  depends_on :xcode => ["12.4", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}", "version=#{version}"
